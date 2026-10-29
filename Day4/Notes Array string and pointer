@@ -1,0 +1,90 @@
+// // Array string and pointer
+// #include <string.h>
+// #include <ctype.h>
+// // array adalah data yang banyak dan sizenya tetap atau fixed serta tipe datanya sama
+// // array itu ada dan berguna banget untuk .sort .search matrix. index array dari kiri ke kanan
+// // dimulai dari 0 sedangkan dari kanan ke kiri dimulai dari -1
+
+// // example:
+// int a, b, c, d, e; //single variable style
+// int a[10]; //array style
+
+// // TO INITIALIZE AN ARRAY 
+// // example:
+// int B[] = {1, 2 , -4, 8}; // dia nanti ngatur sendiri dalam array ada berapa
+// int B[8] = {1, 2, -4, 8}; // pasti ada 8 isinya, kalau datanya cuman 4, nanti diisi 0 sisanya
+
+// // ARRAY INIT AFTER DEFINITION
+// int a[5];
+// for (i=0; i<5; i++) a[i]=0; // sama aja kek int a[5] = {0,0,0,0,0}
+
+
+// // cara akses array itu 
+// *(a+2) =  a[2] // bentuk sama
+
+// // a itu ekuivalen dengan &a[0] or constant pointer, selalu mengarah pada yang indeks pertama
+// // untuk nunjukkinnya
+//     printf("%d\n", a[2]);
+//     printf("%d\n", *(a+2));
+
+
+// // accessing arrays using pointer
+// int arr[10];
+// int *ptr_arr;
+// ptr_arr = arr; // or ptr_arr = &arr[0]
+
+// // to access certain elements (per index)
+// ptr_arr[i];
+// arr[i];
+// *(ptr_arr +i); // sama aja kek yang dibawah
+// *(arr + i); // sama aja kek yang dibawah
+// ptr_arr = ptr_arr + i; *ptr_arr;
+
+
+// array tidak hanya satu dimensi, tetapi juga 2 dimensi contoh
+// int a[row][col];
+// int a[2][8];
+
+// // string adalah array of haracters
+// char selalu memiliki \0 atau null atau end of string. \0  ini selalu berada di akhir
+
+// // string manipulation (psst, selalu bentuknya "s1,s2" dalam kurungnya)
+// strlen() // panjang string
+// strcpy() // copy dari s2 ke s1
+// strncpy() // copy first N char dari s2 ke s1
+// strcat() // add string s2 to end of s1
+// strncat() // adding N characters from s2 to s1
+// strcmp()//kalau resultnya 0 artinya dia sama
+
+// //character handling
+// int isdigit(int c)
+// int isalpha(int c)
+// int isalnum(int c)
+// int islower(int c)
+// int isupper(int c)
+// int istolower(int c)
+// int istoupper(int c)
+
+// Pointers
+// kalau pakai '*' isinya itu apa
+// kalau pakai '&' alamatnya
+
+// // initializing
+// int i, *ptr;
+// ptr = &i //POINTER PASTI ISINYA ALAMAT
+// to assign new value
+// *ptr = 5; // artinya i=5
+
+// pointer to pointer
+// **ptr_ptr;
+
+// contoh 
+// int i, *ptr, **ptr_ptr;
+// ptr = &i;
+// pter_ptr = &ptr_arr
+
+// kalau
+// *ptr = 5 // i adalah 5
+// *ptr_ptr = 9 // i adalah 9
+
+// contoh pointer constant adalah array, kalau ptr dia variabel 

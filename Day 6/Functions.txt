@@ -1,0 +1,14 @@
+Library vs user defined func
+
+Library function ditandain dengan adanya header file atau yang ada .h
+
+return-value-type function-name (parameter list)
+{
+    Statements
+}
+
+Karena ada function tadi, kita bisa passing parameter atau function. passing parameternya ada dua
+by value nilaainya kita copy
+by location kita ubah memorynya
+
+Function templates

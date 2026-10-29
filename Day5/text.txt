@@ -1,0 +1,1 @@
+This statement is saved to text.txt using fputc
