@@ -1,0 +1,14 @@
+START
+    DECLARE inputAngka AS INTEGER
+
+    PRINT "Masukkan angka untuk diuji:"
+    INPUT inputAngka 
+
+    IF inputAngka is bigger than 0 THEN
+        PRINT inputAngka, "adalah angka positif"
+    ELSE IF inputAngka is smaller than 0 THEN
+        PRINT inputAngka, "adalah angka negatif"
+    ELSE 
+        PRINT inputAngka, "adalah angka 0"
+    END IF
+END
