@@ -1,0 +1,24 @@
+C++ dipakai di arduino gais 
+
+OOP itu basicnya melihat function kita sebagai sebuah objek
+Class adalah rancangan dari objek, kita belum bisa menggunakan class sebelum class tersebut dibangun atau dibuild. class ini baru rancangannya, setelah dibuild baru bisa kita gunakan
+
+COntohnya blueprintnya adalah mobil
+mobil sendiri memiliki atribut berupa tipenya apa, warnanya apa, ukuran berat dll
+terus dia ada behaviournya atau dia ngapain aja, yaitu gerak, akselerasi, berhenti, belok dll
+
+KONSEP OOP 
+- encapsulation (informasi tidak dibuka ke publik, atau dibungkus)
+    -didalam class, ada data dan function
+- Inheritance
+    - Reusable, dan mengeksten class
+- polymorphism
+    - many shapes
+
+encapsulation
+    public : ke semuanya
+    Protected : untuk class member dan anak anaknya
+    Private : hanya untuk kelas itu aja
+
+Constructor adalah inisialisasi awal terus namanya sama kek classnya
+Destructor (~) adalah fungsi yang nutup otomatis data yang di inisialisasi kalau udah gak dipake
