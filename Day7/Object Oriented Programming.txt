@@ -22,3 +22,12 @@ encapsulation
 
 Constructor adalah inisialisasi awal terus namanya sama kek classnya
 Destructor (~) adalah fungsi yang nutup otomatis data yang di inisialisasi kalau udah gak dipake
+
+
+Standard template library stl 
+    ada container iterators dan algorithms
+
+    vector mirip array, yang dibuang yang akhir
+    queue mirip array juga, tapi dia first in first out, yang dibuang yang awal
+    container
+    map ngubah ini ke itu
